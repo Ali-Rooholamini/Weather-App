@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather-App</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        body{
+            display: flex;
+            justify-content: center;
+            height: 100vh;
+            align-items: center;
+            flex-direction: column;
+            background-image: linear-gradient( 132.6deg,  rgba(71,139,214,1) 23.3%, rgba(37,216,211,1) 84.7% );
+        }
+        input{
+            width: 300px;
+            height: 40px;
+            border-radius: 5px 0px 0px 5px;
+            margin: 0;
+            padding: 5px;
+            padding-left: 10px;
+            font-size: 20px;
+            border: 1px solid rgb(219, 219, 219);
+        }
+        input:focus{
+            border: none;
+            outline: none;
+        }
+        button{
+            border: none;
+            width: 70px;
+            height: 40px;
+            margin: 0px;
+            cursor: pointer;
+            background-color: #a16eff;
+            border-radius: 0px 5px 5px 0px;
+            font-size: 17px;
+        }
+        form{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        #weather{
+            margin-top: 60px;
+            font-size: 32px;
+        }
+    </style>
+</head>
+<body>
+
+    <form>
+        <input type="text" id="city" placeholder="City Name ...">
+        <button type="submit"> Show </button>
+    </form>
+
+    <div id="weather">
+        22 deg
+    </div>
+    
+    <script src="main.js"></script>
+</body>
+</html>
