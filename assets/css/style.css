@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Source+Serif+4&display=swap');
-
 *{
     box-sizing: border-box;
     font-family: 'Source Serif 4', sans-serif;
@@ -9,7 +8,8 @@ body{
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-image: url('https://source.unsplash.com/1600x900/?landscape') ;
+    background-color: rgb(128, 128, 128);
+    margin: 0;
 }
 .card{
     background-color: rgba(0, 0, 0, 0.8);
@@ -57,11 +57,12 @@ body{
 .weather{
     font-size: 40px;
     padding: 0px 10px;
-    margin: 5px 0 25px 5px;
+    margin: 5px 0 5px 5px;
 }
 .flex{
     display: flex;
     justify-content: flex-start;
+    align-items: center;
     padding: 5px 0px 5px 18px;
 }
 .humidity , .wind{
